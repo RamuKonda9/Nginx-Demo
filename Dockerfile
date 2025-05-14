@@ -6,16 +6,3 @@ copy src/index.html /usr/share/nginx/html
 EXPOSE 80
 cmd ["nginx", "-g", "daemon off;"]
 
-    python3 \
-    python3-pip \
-    python3-venv \
-    git \
-    curl \
-    wget \
-    unzip \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
-    libsm6 \
-    libxext6 \
-    libxrender-dev \
-    ffmpeg
